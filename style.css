@@ -83,3 +83,28 @@
 
     }
 }
+
+.about-main {
+    padding: 50px;
+    height: 600px;
+
+    .about-container {
+        background-color: grey;
+        padding: 20px;
+
+        .about-title {
+            text-decoration: underline;
+        }
+
+        .about-info {
+            margin: 20px;
+        }
+    }
+}
+
+.about-footer {
+    background-color: darkblue;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
