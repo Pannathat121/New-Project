@@ -4,109 +4,25 @@
     box-sizing: border-box;
 }
 
-.home {
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.home-header {
-    background-color: darkblue;
-    color: white;
+header {
+    background-color: rgb(74, 37, 11);
+    color: goldenrod;
     padding: 50px;
     text-align: center;
 }
 
-.home-nav {
-    background-color: navy;
+nav {
+    background-color: rgb(66, 29, 2);
     padding: 20px;
     text-align: center;
 
     a {
-        color: white;
+        color: goldenrod;
         padding: 0 20px;
         text-decoration: none;
     }
-}
-
-.home-main {
-    padding: 50px;
-    height: 600px;
-
-    .home-container {
-        background-color: grey;
-        padding: 20px;
-
-        .home-title {
-            text-decoration: underline;
-        }
-
-        .home-info {
-            margin: 20px 0;
-        }
-
-        .home-btn {
-            background-color: darkblue;
-            color: white;
-            padding: 10px;
-            display: inline;
-            text-decoration: none;
-        }
-    }
-}
-
-.home-footer {
-    background-color: darkblue;
-    color: white;
-    max-block-size: 100%;
-    padding: 30px;
-    text-align: center;
-}
-
-/* About page */
-.about {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.about-header {
-    background-color: darkblue;
-    color: white;
-    padding: 50px;
-    text-align: center;
-}
-
-.about-nav {
-    background-color: navy;
-    padding: 20px;
-    text-align: center;
-
-    .about-GoBack {
-        color: white;
-        text-decoration: none;
-
-    }
-}
-
-.about-main {
-    padding: 50px;
-    height: 600px;
-
-    .about-container {
-        background-color: grey;
-        padding: 20px;
-
-        .about-title {
-            text-decoration: underline;
-        }
-
-        .about-info {
-            margin: 20px;
-        }
-    }
-}
-
-.about-footer {
-    background-color: darkblue;
-    color: white;
-    max-block-size: 100%;
-    padding: 30px;
-    text-align: center;
 }
