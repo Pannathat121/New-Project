@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: rgb(74, 37, 11);
+    background-color: #4a250b;
     color: goldenrod;
     padding: 50px;
     text-align: center;
@@ -25,4 +25,36 @@ nav {
         padding: 0 20px;
         text-decoration: none;
     }
+}
+
+main {
+    padding: 50px;
+    height: 600px;
+
+    .main-container {
+        background-color: #ccc;
+        padding: 20px;
+
+        .main-title {
+            text-decoration: underline;
+        }
+
+        .main-info {
+            padding: 20px 0;
+        }
+
+        .main-btn {
+            background-color: #4a250b;
+            color: goldenrod;
+            padding: 10px;
+            text-decoration: none;
+        }
+    }
+}
+
+footer {
+    background-color: #4a250b;
+    color: goldenrod;
+    padding: 30px;
+    text-align: center;
 }
