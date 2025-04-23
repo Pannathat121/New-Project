@@ -28,11 +28,11 @@ nav {
 }
 
 main {
-    padding: 50px;
     height: 600px;
 
     .main-container {
         background-color: #ccc;
+        margin: 50px;
         padding: 20px;
 
         .main-title {
@@ -44,6 +44,31 @@ main {
         }
 
         .main-btn {
+            background-color: #4a250b;
+            color: goldenrod;
+            padding: 10px;
+            text-decoration: none;
+        }
+    }
+}
+
+/* This is Aside content */
+aside {
+
+    .aside-container {
+        background-color: #ccc;
+        padding: 20px;
+        margin: 20px;
+
+        .aside-title {
+            text-decoration: underline;
+        }
+
+        .aside-info {
+            padding: 20px 0;
+        }
+
+        .aside-btn {
             background-color: #4a250b;
             color: goldenrod;
             padding: 10px;
