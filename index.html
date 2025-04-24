@@ -5,52 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cmaster</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <header>
-        <h1>C master house</h1>
+    <!-- Modern Header -->
+    <header class="modern-header">
+        <div class="logo">
+            <h1>C master</h1>
+        </div>
+        <nav class="modern-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
-
+    <!-- Main Content -->
     <main>
-        <section class="main-container">
-            <h2 class="main-title">Main content</h2>
-            <p class="main-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, facilis, tenetur
-                inventore commodi
-                voluptatem porro ea voluptatibus error ipsam amet nam provident consequatur illum natus voluptatum eius
-                itaque! Ex, nam!
+        <!-- Hero Section -->
+        <section id="home" class="main-container">
+            <h2 class="main-title">Discover Our World</h2>
+            <p class="main-info">
+                Welcome to our modern website. Explore our services and learn more about what we offer.
             </p>
-            <a href="#" class="main-btn">Read more</a>
+            <a href="#services" class="main-btn">Learn More</a>
         </section>
-        <!-- Aside content -->
-        <aside>
-            <section class="aside-container">
-                <h2 class="aside-title">This is aside content</h2>
-                <p class="aside-info">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, eius. Veniam, sit et nesciunt
-                    architecto esse adipisci quod quas? Autem debitis adipisci dolorum, quae eveniet iste odit dicta
-                    modi
-                    delectus!
-                </p>
-                <a href="#" class="aside-btn">Read more</a>
-            </section>
-        </aside>
+
+        <!-- Services Section -->
+        <section id="services" class="card-container">
+            <div class="card">
+                <h3>Service 1</h3>
+                <p>High-quality service tailored to your needs.</p>
+            </div>
+            <div class="card">
+                <h3>Service 2</h3>
+                <p>Reliable and efficient solutions for your business.</p>
+            </div>
+            <div class="card">
+                <h3>Service 3</h3>
+                <p>Innovative ideas to help you grow and succeed.</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="aside-container">
+            <h2 class="aside-title">About Us</h2>
+            <p class="aside-info">
+                We are a team of professionals dedicated to providing the best services to our clients. Our mission is
+                to deliver excellence in every project we undertake.
+            </p>
+            <a href="#contact" class="aside-btn">Get in Touch</a>
+        </section>
     </main>
 
+    <!-- Footer -->
     <footer>
-        Cmaster2025
+        <p>&copy; 2025 Modern Website. All rights reserved.</p>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
     </footer>
-
 </body>
 
 </html>
