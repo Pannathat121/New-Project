@@ -27,29 +27,91 @@ nav a {
     text-decoration: none;
 }
 
+/* main section */
 main {
     height: 600px;
+}
 
-    .main-container {
-        background-color: #ccc;
-        margin: 20px;
-        padding: 20px;
+.main-container {
+    background-color: #ccc;
+    margin: 20px;
+    padding: 20px;
+}
 
-        .main-title {
-            text-decoration: underline;
-        }
+.main-title {
+    text-decoration: underline;
+}
 
-        .main-info {
-            padding: 20px 0;
-        }
+.main-info {
+    padding: 20px 0;
+}
 
-        .main-btn {
-            background-color: darkblue;
-            color: white;
-            padding: 10px;
-            text-decoration: none;
-        }
-    }
+.main-btn {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.main-second-container {
+    background-color: #ccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.main-second-title {
+    text-decoration: underline;
+}
+
+.main-second-info {
+    padding: 20px 0;
+}
+
+.main-second-btn {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.main-third-container {
+    background-color: #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main-third-title {
+    text-decoration: underline;
+}
+
+.main-third-info {
+    padding: 20px 0;
+}
+
+.main-third-btn {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Tips section */
+.tips-box {
+    box-sizing: content-box;
+}
+
+.tips-container {
+    padding: 20px;
+    margin: 30px;
+    display: block;
+}
+
+.tips-title {
+    text-decoration: underline;
+}
+
+.tips-info {
+    padding: 10px 0;
 }
 
 footer {
