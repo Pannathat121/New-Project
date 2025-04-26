@@ -96,13 +96,10 @@ main {
 }
 
 /* Tips section */
-.tips-box {
-    box-sizing: content-box;
-}
-
 .tips-container {
     padding: 20px;
     margin: 30px;
+    font-size: large;
     display: block;
 }
 
@@ -114,6 +111,7 @@ main {
     padding: 10px 0;
 }
 
+/* Footer section */
 footer {
     background-color: darkblue;
     color: white;
